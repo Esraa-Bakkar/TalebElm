@@ -5,7 +5,5 @@ using TalebElm.Domain.Entities;
 
 namespace TalebElm.Domain.Interfaces
 {
-    public interface ILessonRepository : IRepository<Lesson>
-    {
-    }
+    public interface IUserProgressRepository : IRepository<UserProgress> { }
 }
